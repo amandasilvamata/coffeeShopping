@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  --color-1: #FFF8F0;
+  --color-2: #C08552;
+  --color-3: #8C5A3C;
+  --color-4: #4B2E2B;
+}
+
+body{
+  font-family: "Medula One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: var(--color-4);
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-4);
+    gap: 100px;
+    color: var(--color-1);
+}
+
+.email-header, .telefone-header{
+    display: flex;
+    align-items: center;
+}
+.email-img-header{
+    width: 30px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.telefone-img-header{
+    width: 50px;
+    height: 50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.menu-img{
+    width: 150px;
+    height: 150px;
+}
+
+.container-menu-opcoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.container-menu-acessos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.opcoes-link{
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    color: var(--color-4);
+}
+
+.opcoes-link:hover{
+    border-bottom: 2px solid var(--color-2); 
+    padding-bottom: 2px;
+}
+
+.acessos-link{
+    text-decoration: none;
+    color: var(--color-4);
+    padding: 20px 30px;
+}
+
+.acessos-link:hover{
+    background-color: var(--color-3);
+    color: var(--color-1);
+    border-radius: 10px;
+}
+
+.container-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 150px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: var(--color-1);
+}
+
+.botoes-compra-contato{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-banner{
+    width: 500px;
+}
+
+.cafe-span{
+    font-size: 150px;
+    color: var(--color-3);
+}
+
+.compra-contato-link{
+    padding: 30px;
+    margin-top: 50px;
+    border: solid 2px var(--color-2);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--color-4);
+}
+
+.compra-contato-link:hover{
+    background-color: var(--color-4);
+    color: var(--color-1);
+}
+
+.container-sites{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.sites-img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.container-oferecemos{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.servicos-texto-1{
+    font-size: 30px;
+}
+
+.servicos-texto-2{
+    font-size: 50px;
+    color: var(--color-3);
+}
+
+.container-servicos{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    gap: 100px;
+}
+
+.servico{
+    background-color: var(--color-1);
+    border-radius: 10px;
+    padding: 60px;
+}
+
+.servico-img{
+    width: 80px;
+    margin-bottom: 50px;
+}
+
+.nome-servico{
+    font-size: 30px;
+    color: #C08552;
+    margin-bottom: 10px;
+}
+
+.container-footer{
+    background-color: var(--color-4);
+    color: var(--color-1);
+    font-size: 15px;
+}
+
+.container-footer-detalhes{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.texto-detalhes{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.telefone-footer, .email-footer{
+    display: flex;
+    align-items: center;
+}
+
+
+.telefone-img-footer{
+    width: 35px;
+}
+
+.email-img-footer{
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container-footer-termos{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
